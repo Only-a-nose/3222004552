@@ -1,0 +1,352 @@
+         25051 function calls (24971 primitive calls) in 0.046 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     1600    0.005    0.000    0.005    0.000 {method 'findall' of 're.Pattern' objects}
+       10    0.004    0.000    0.004    0.000 {method 'sub' of 're.Pattern' objects}
+        5    0.003    0.001    0.006    0.001 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:380(_check_stop_words_consistency)
+       15    0.002    0.000    0.002    0.000 {built-in method builtins.sorted}
+        5    0.002    0.000    0.016    0.003 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:1242(_count_vocab)
+        5    0.002    0.000    0.003    0.001 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:1203(_limit_features)
+     1600    0.002    0.000    0.003    0.000 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:46(_preprocess)
+        5    0.001    0.000    0.004    0.001 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:1189(_sort_features)
+     1600    0.001    0.000    0.001    0.000 {method 'lower' of 'str' objects}
+       11    0.001    0.000    0.001    0.000 {built-in method _io.open}
+       60    0.001    0.000    0.001    0.000 D:\Python\Lib\site-packages\scipy\sparse\_sputils.py:148(get_index_dtype)
+       10    0.001    0.000    0.001    0.000 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:242(_word_ngrams)
+     2672    0.001    0.000    0.001    0.000 {built-in method builtins.isinstance}
+       10    0.001    0.000    0.001    0.000 {built-in method nt._path_isfile}
+       10    0.001    0.000    0.001    0.000 {method 'extend' of 'array.array' objects}
+       10    0.001    0.000    0.001    0.000 {method 'read' of '_io.TextIOWrapper' objects}
+       20    0.001    0.000    0.002    0.000 D:\Python\Lib\inspect.py:2368(_signature_from_function)
+      260    0.000    0.000    0.000    0.000 {built-in method numpy.asarray}
+       35    0.000    0.000    0.002    0.000 D:\Python\Lib\site-packages\sklearn\utils\validation.py:93(_assert_all_finite)
+       11    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+    50/45    0.000    0.000    0.003    0.000 D:\Python\Lib\site-packages\scipy\sparse\_compressed.py:27(__init__)
+      255    0.000    0.000    0.001    0.000 D:\Python\Lib\site-packages\sklearn\utils\_param_validation.py:101(make_constraint)
+       10    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_decode}
+       35    0.000    0.000    0.004    0.000 D:\Python\Lib\site-packages\sklearn\utils\validation.py:718(check_array)
+       20    0.000    0.000    0.002    0.000 D:\Python\Lib\site-packages\sklearn\utils\_param_validation.py:25(validate_parameter_constraints)
+      175    0.000    0.000    0.001    0.000 D:\Python\Lib\inspect.py:2729(__init__)
+      860    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+       45    0.000    0.000    0.000    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+        5    0.000    0.000    0.000    0.000 {method 'writelines' of '_io._IOBase' objects}
+        1    0.000    0.000    0.046    0.046 D:\pythonProject1\Software_Engineer\main.py:42(process_files)
+       50    0.000    0.000    0.001    0.000 D:\Python\Lib\site-packages\scipy\sparse\_compressed.py:137(check_format)
+       15    0.000    0.000    0.002    0.000 D:\Python\Lib\site-packages\sklearn\preprocessing\_data.py:1856(normalize)
+       50    0.000    0.000    0.001    0.000 D:\Python\Lib\site-packages\scipy\sparse\_compressed.py:1172(prune)
+        5    0.000    0.000    0.023    0.005 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:1326(fit_transform)
+       50    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_sputils.py:295(check_shape)
+      280    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_array_api.py:372(__getattr__)
+       20    0.000    0.000    0.002    0.000 D:\Python\Lib\inspect.py:2463(_signature_from_callable)
+      576    0.000    0.000    0.000    0.000 <frozen codecs>:327(reset)
+       60    0.000    0.000    0.001    0.000 D:\Python\Lib\site-packages\scipy\sparse\_base.py:1289(_get_index_dtype)
+      600    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+  924/915    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+      125    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\getlimits.py:685(__init__)
+      435    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        5    0.000    0.000    0.001    0.000 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:1627(fit)
+       10    0.000    0.000    0.002    0.000 D:\Python\Lib\site-packages\sklearn\base.py:196(_get_param_names)
+    20/10    0.000    0.000    0.007    0.001 D:\Python\Lib\site-packages\sklearn\utils\_param_validation.py:182(wrapper)
+        5    0.000    0.000    0.000    0.000 {built-in method scipy.sparse._sparsetools.csr_sort_indices}
+       35    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\validation.py:364(_num_samples)
+       35    0.000    0.000    0.003    0.000 D:\Python\Lib\site-packages\sklearn\utils\validation.py:518(_ensure_sparse_format)
+       10    0.000    0.000    0.000    0.000 {built-in method scipy.sparse._sparsetools.get_csr_submatrix}
+      435    0.000    0.000    0.000    0.000 <frozen abc>:117(__instancecheck__)
+       70    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\_ufunc_config.py:33(seterr)
+       20    0.000    0.000    0.000    0.000 D:\Python\Lib\inspect.py:3015(__init__)
+      175    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\_config.py:32(get_config)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\inspect.py:3119(_bind)
+       55    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_param_validation.py:584(__init__)
+    89/70    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:921(_document_frequency)
+        1    0.000    0.000    0.000    0.000 {built-in method nt._path_exists}
+        5    0.000    0.000    0.002    0.000 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:1670(transform)
+      362    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method nt.mkdir}
+      5/3    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:512(_parse)
+      145    0.000    0.000    0.001    0.000 {built-in method builtins.any}
+      215    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_base.py:285(nnz)
+       55    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_param_validation.py:591(is_satisfied_by)
+       15    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_index.py:266(_unpack_index)
+       40    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\_config.py:57(set_config)
+      245    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_base.py:1483(issparse)
+      179    0.000    0.000    0.000    0.000 D:\Python\Lib\enum.py:713(__call__)
+      361    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+      215    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\_config.py:24(_get_threadlocal_config)
+       30    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_sputils.py:217(isintlike)
+      215    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_compressed.py:109(_getnnz)
+      9/2    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_compiler.py:37(_compile)
+      135    0.000    0.000    0.000    0.000 {built-in method numpy.array}
+      135    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_param_validation.py:291(__init__)
+       10    0.000    0.000    0.028    0.003 D:\Python\Lib\site-packages\sklearn\base.py:1456(wrapper)
+       35    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\fromnumeric.py:71(_wrapreduction)
+       70    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\_ufunc_config.py:132(geterr)
+        5    0.000    0.000    0.000    0.000 {method 'cumsum' of 'numpy.ndarray' objects}
+      105    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:645(parent)
+       10    0.000    0.000    0.001    0.000 D:\Python\Lib\site-packages\sklearn\base.py:537(_validate_data)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_param_validation.py:481(__contains__)
+       35    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_array_api.py:189(isdtype)
+        5    0.000    0.000    0.001    0.000 D:\Python\Lib\site-packages\scipy\sparse\_compressed.py:759(_minor_index_fancy)
+      500    0.000    0.000    0.000    0.000 D:\Python\Lib\inspect.py:2782(name)
+       10    0.000    0.000    0.002    0.000 D:\Python\Lib\site-packages\sklearn\base.py:227(get_params)
+       10    0.000    0.000    0.006    0.001 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:72(_analyze)
+       50    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_array_api.py:235(supported_float_dtypes)
+        5    0.000    0.000    0.041    0.008 D:\pythonProject1\Software_Engineer\main.py:24(main)
+      495    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_matrix.py:64(get_shape)
+        5    0.000    0.000    0.001    0.000 D:\Python\Lib\site-packages\scipy\sparse\_compressed.py:512(_mul_sparse_matrix)
+      290    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_param_validation.py:259(__init__)
+      175    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+      360    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_data.py:23(dtype)
+       15    0.000    0.000    0.001    0.000 D:\Python\Lib\re\__init__.py:280(_compile)
+      195    0.000    0.000    0.000    0.000 D:\Python\Lib\inspect.py:3062(<genexpr>)
+       35    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\fromnumeric.py:2177(sum)
+       10    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+      576    0.000    0.000    0.000    0.000 <frozen codecs>:276(reset)
+       40    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\_config.py:211(config_context)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\html\__init__.py:122(unescape)
+        5    0.000    0.000    0.000    0.000 {method 'argsort' of 'numpy.ndarray' objects}
+        5    0.000    0.000    0.000    0.000 {method 'take' of 'numpy.ndarray' objects}
+       10    0.000    0.000    0.001    0.000 D:\Python\Lib\site-packages\scipy\sparse\_compressed.py:803(_get_submatrix)
+      150    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_sputils.py:308(<genexpr>)
+       90    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_array_api.py:473(get_namespace)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\inspect.py:2935(apply_defaults)
+       45    0.000    0.000    0.000    0.000 {method 'astype' of 'numpy.ndarray' objects}
+        5    0.000    0.000    0.000    0.000 {built-in method scipy.sparse._sparsetools.csr_column_index2}
+        5    0.000    0.000    0.001    0.000 D:\Python\Lib\site-packages\scipy\sparse\_csc.py:44(tocsr)
+      100    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\_lib\_util.py:210(_prune_array)
+       46    0.000    0.000    0.000    0.000 <frozen ntpath>:179(splitroot)
+      179    0.000    0.000    0.000    0.000 D:\Python\Lib\enum.py:1116(__new__)
+      105    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+      110    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_param_validation.py:592(<genexpr>)
+       50    0.000    0.000    0.000    0.000 {built-in method numpy.empty}
+       15    0.000    0.000    0.001    0.000 D:\Python\Lib\site-packages\scipy\sparse\_index.py:147(_validate_indices)
+       15    0.000    0.000    0.002    0.000 D:\Python\Lib\site-packages\scipy\sparse\_index.py:45(__getitem__)
+       70    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_array_api.py:196(<genexpr>)
+       20    0.000    0.000    0.002    0.000 D:\Python\Lib\inspect.py:3067(from_callable)
+       30    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\fromnumeric.py:3176(ndim)
+       90    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+      175    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+      415    0.000    0.000    0.000    0.000 D:\Python\Lib\inspect.py:2794(kind)
+       70    0.000    0.000    0.000    0.000 {built-in method numpy.seterrobj}
+       45    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\validation.py:2205(_is_pandas_df)
+       11    0.000    0.000    0.000    0.000 <frozen ntpath>:107(join)
+      4/2    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:452(_parse_sub)
+       35    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\validation.py:655(_ensure_no_complex_data)
+        1    0.000    0.000    0.000    0.000 {built-in method nt._path_isdir}
+       35    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\_ufunc_config.py:435(__exit__)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_sputils.py:23(upcast)
+        5    0.000    0.000    0.030    0.006 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:2065(fit_transform)
+       50    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_data.py:20(__init__)
+       35    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\validation.py:301(_use_interchange_protocol)
+       20    0.000    0.000    0.000    0.000 D:\Python\Lib\inspect.py:747(unwrap)
+       35    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_array_api.py:201(_isdtype_single)
+      175    0.000    0.000    0.000    0.000 {method '__contains__' of 'frozenset' objects}
+       20    0.000    0.000    0.000    0.000 D:\Python\Lib\contextlib.py:132(__enter__)
+       10    0.000    0.000    0.004    0.000 D:\pythonProject1\Software_Engineer\main.py:16(extract_text)
+       75    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:168(__getitem__)
+       35    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\_ufunc_config.py:430(__enter__)
+       20    0.000    0.000    0.000    0.000 D:\Python\Lib\inspect.py:175(get_annotations)
+       30    0.000    0.000    0.000    0.000 {method 'copy' of 'numpy.ndarray' objects}
+      125    0.000    0.000    0.000    0.000 {built-in method _operator.index}
+        5    0.000    0.000    0.007    0.001 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:419(build_analyzer)
+       10    0.000    0.000    0.003    0.000 D:\Python\Lib\site-packages\sklearn\base.py:658(_validate_params)
+        5    0.000    0.000    0.000    0.000 {built-in method scipy.sparse._sparsetools.csc_tocsr}
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\numeric.py:136(ones)
+       35    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_array_api.py:392(asarray)
+        5    0.000    0.000    0.005    0.001 D:\Python\Lib\site-packages\sklearn\metrics\pairwise.py:1626(cosine_similarity)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\fromnumeric.py:53(_wrapfunc)
+        5    0.000    0.000    0.001    0.000 D:\Python\Lib\site-packages\sklearn\metrics\pairwise.py:79(check_pairwise_arrays)
+       20    0.000    0.000    0.000    0.000 D:\Python\Lib\contextlib.py:104(__init__)
+       40    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_index.py:373(_compatible_boolean_index)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\validation.py:311(_num_features)
+    89/70    0.000    0.000    0.000    0.000 <frozen abc>:121(__subclasscheck__)
+       35    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_array_api.py:427(isdtype)
+       52    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+       60    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\getlimits.py:696(min)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\base.py:402(_check_n_features)
+        5    0.000    0.000    0.000    0.000 {built-in method scipy.sparse._sparsetools.csr_todense}
+       10    0.000    0.000    0.001    0.000 D:\Python\Lib\site-packages\scipy\sparse\_compressed.py:1228(_with_data)
+       50    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_base.py:107(__init__)
+       55    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+     11/4    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:178(getwidth)
+        5    0.000    0.000    0.000    0.000 {built-in method scipy.sparse._sparsetools.csr_matmat}
+       35    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\validation.py:713(_is_extension_array_dtype)
+       65    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
+       45    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_param_validation.py:363(is_satisfied_by)
+       35    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_index.py:358(_first_element_bool)
+      140    0.000    0.000    0.000    0.000 {built-in method numpy.geterrobj}
+        5    0.000    0.000    0.000    0.000 {built-in method scipy.sparse._sparsetools.csr_column_index1}
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\validation.py:1549(_is_fitted)
+      150    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_sputils.py:313(<genexpr>)
+        5    0.000    0.000    0.000    0.000 {built-in method scipy.sparse._sparsetools.csr_has_sorted_indices}
+        2    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_compiler.py:573(_code)
+       75    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_param_validation.py:295(is_satisfied_by)
+       20    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_compressed.py:1304(_process_slice)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_compressed.py:1053(toarray)
+       20    0.000    0.000    0.000    0.000 D:\Python\Lib\contextlib.py:299(helper)
+       20    0.000    0.000    0.000    0.000 D:\Python\Lib\contextlib.py:141(__exit__)
+        5    0.000    0.000    0.001    0.000 D:\Python\Lib\site-packages\scipy\sparse\_base.py:559(_mul_dispatch)
+      190    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_csr.py:117(_swap)
+       77    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        5    0.000    0.000    0.000    0.000 {built-in method scipy.sparse._sparsetools.csr_matmat_maxnnz}
+      166    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\multiarray.py:503(can_cast)
+        5    0.000    0.000    0.001    0.000 D:\Python\Lib\site-packages\sklearn\utils\extmath.py:161(safe_sparse_dot)
+       20    0.000    0.000    0.002    0.000 D:\Python\Lib\inspect.py:3325(signature)
+       10    0.000    0.000    0.000    0.000 <frozen codecs>:319(decode)
+       45    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_sputils.py:239(isshape)
+       75    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_base.py:305(format)
+       10    0.000    0.000    0.001    0.000 D:\Python\Lib\site-packages\scipy\sparse\_compressed.py:667(_get_sliceXslice)
+        2    0.000    0.000    0.001    0.000 D:\Python\Lib\re\_compiler.py:740(compile)
+        5    0.000    0.000    0.001    0.000 D:\Python\Lib\site-packages\scipy\sparse\_csr.py:206(_get_sliceXarray)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+       40    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       65    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\getlimits.py:709(max)
+       20    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_param_validation.py:497(is_satisfied_by)
+        2    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_compiler.py:511(_compile_info)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:1938(__init__)
+       11    0.000    0.000    0.000    0.000 <frozen codecs>:309(__init__)
+        5    0.000    0.000    0.000    0.000 {built-in method numpy.frombuffer}
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_csr.py:21(transpose)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\numeric.py:1855(isscalar)
+        5    0.000    0.000    0.001    0.000 D:\Python\Lib\site-packages\scipy\sparse\_base.py:674(__matmul__)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:350(build_tokenizer)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_index.py:171(_asindices)
+        2    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:969(parse)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_compressed.py:1163(sort_indices)
+       15    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_index.py:312(_check_ellipsis)
+       20    0.000    0.000    0.000    0.000 {method 'indices' of 'slice' objects}
+       41    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:240(__next)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:210(decode)
+       40    0.000    0.000    0.000    0.000 D:\Python\Lib\inspect.py:371(isfunction)
+       35    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\validation.py:665(_check_estimator_name)
+       30    0.000    0.000    0.000    0.000 {method 'values' of 'mappingproxy' objects}
+       10    0.000    0.000    0.001    0.000 D:\Python\Lib\site-packages\scipy\sparse\_data.py:94(copy)
+       10    0.000    0.000    0.000    0.000 {built-in method numpy.zeros}
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_compressed.py:1131(has_sorted_indices)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\base.py:448(_check_feature_names)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:1478(_make_int_array)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\inspect.py:3254(bind)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_sputils.py:212(isscalarlike)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_matrix.py:17(_csc_container)
+       33    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:261(get)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\validation.py:2232(_get_feature_names)
+       27    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 <frozen os>:200(makedirs)
+       15    0.000    0.000    0.001    0.000 D:\Python\Lib\re\__init__.py:226(compile)
+       46    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 D:\Python\Lib\enum.py:1541(__and__)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\validation.py:1587(check_is_fitted)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:1150(__init__)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\metrics\pairwise.py:55(_return_float_dtype)
+        5    0.000    0.000    0.000    0.000 {method 'max' of 'numpy.ndarray' objects}
+       35    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_array_api.py:306(_check_device_cpu)
+       30    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_matrix.py:22(_csr_container)
+       30    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\fromnumeric.py:2512(cumsum)
+       26    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:176(append)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_param_validation.py:693(is_satisfied_by)
+        2    0.000    0.000    0.000    0.000 <frozen ntpath>:236(split)
+        5    0.000    0.000    0.001    0.000 D:\Python\Lib\site-packages\scipy\sparse\_base.py:398(asformat)
+        2    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_compiler.py:243(_optimize_charset)
+       17    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:256(match)
+       59    0.000    0.000    0.000    0.000 {built-in method nt.fspath}
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_index.py:349(_maybe_bool_ndarray)
+       20    0.000    0.000    0.000    0.000 D:\Python\Lib\inspect.py:767(_is_wrapper)
+       15    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\validation.py:296(_is_arraylike_not_scalar)
+       35    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\_ufunc_config.py:426(__init__)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_array_api.py:177(_is_numpy_namespace)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\enum.py:197(__get__)
+       15    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_param_validation.py:525(is_satisfied_by)
+       35    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\fromnumeric.py:2172(_sum_dispatcher)
+       15    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\validation.py:288(_is_arraylike)
+       19    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:164(__len__)
+       20    0.000    0.000    0.000    0.000 {built-in method sys.getrecursionlimit}
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\fromnumeric.py:1025(argsort)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:323(build_preprocessor)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_base.py:1276(_process_toarray_args)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_compressed.py:126(_set_self)
+       50    0.000    0.000    0.000    0.000 D:\Python\Lib\inspect.py:2786(default)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_param_validation.py:694(<genexpr>)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_compressed.py:719(_major_slice)
+       35    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\validation.py:1132(_check_large_sparse)
+        5    0.000    0.000    0.000    0.000 {method 'min' of 'numpy.ndarray' objects}
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:519(_warn_for_unused_params)
+       11    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:293(tell)
+       40    0.000    0.000    0.000    0.000 D:\Python\Lib\inspect.py:3075(parameters)
+       10    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+       30    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\fromnumeric.py:3172(_ndim_dispatcher)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_base.py:325(T)
+        2    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:86(opengroup)
+        2    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:98(closegroup)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_compressed.py:1147(has_sorted_indices)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\_methods.py:39(_amax)
+       10    0.000    0.000    0.000    0.000 {built-in method _operator.lt}
+       15    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_param_validation.py:535(is_satisfied_by)
+       10    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\enum.py:1279(value)
+        5    0.000    0.000    0.000    0.000 {method 'ravel' of 'numpy.ndarray' objects}
+       10    0.000    0.000    0.000    0.000 {method 'items' of 'mappingproxy' objects}
+       12    0.000    0.000    0.000    0.000 {built-in method builtins.hash}
+        2    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_compiler.py:436(_get_literal_prefix)
+        2    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:370(get_stop_words)
+       25    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_param_validation.py:305(is_satisfied_by)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_sputils.py:268(isdense)
+       20    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_array_api.py:84(_check_array_api_dispatch)
+        1    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:449(_uniq)
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.vars}
+       10    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:231(__init__)
+        2    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_compiler.py:467(_get_charset_prefix)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\utils\_param_validation.py:545(is_satisfied_by)
+        3    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_compiler.py:398(_simple)
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.all}
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:470(_validate_vocabulary)
+       15    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_csc.py:142(_swap)
+       14    0.000    0.000    0.000    0.000 <frozen _collections_abc>:435(__subclasshook__)
+       10    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+        8    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:83(groups)
+        2    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_compiler.py:216(_compile_charset)
+       11    0.000    0.000    0.000    0.000 <frozen codecs>:260(__init__)
+        5    0.000    0.000    0.000    0.000 {built-in method _operator.ge}
+       18    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        5    0.000    0.000    0.000    0.000 D:\pythonProject1\Software_Engineer\main.py:12(__init__)
+        9    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:113(__init__)
+        5    0.000    0.000    0.000    0.000 {built-in method _operator.gt}
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\_methods.py:43(_amin)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:2028(_check_params)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:510(_validate_ngram_range)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:1621(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen ntpath>:275(dirname)
+        4    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:372(_escape)
+        2    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        4    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_compiler.py:570(isstring)
+        1    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:893(_parse_flags)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\multiarray.py:892(bincount)
+        2    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:953(fix_flags)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\inspect.py:295(isclass)
+       10    0.000    0.000    0.000    0.000 D:\Python\Lib\inspect.py:2874(__init__)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\sklearn\feature_extraction\text.py:194(_check_stop_list)
+        1    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\multiarray.py:346(where)
+        2    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:77(__init__)
+        5    0.000    0.000    0.000    0.000 {built-in method numpy.asanyarray}
+        2    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_compiler.py:31(_combine_flags)
+        3    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_parser.py:172(__setitem__)
+        4    0.000    0.000    0.000    0.000 D:\Python\Lib\re\_compiler.py:428(_get_iscased)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\fromnumeric.py:1021(_argsort_dispatcher)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\multiarray.py:1080(copyto)
+        2    0.000    0.000    0.000    0.000 <frozen ntpath>:35(_get_bothseps)
+        2    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\fromnumeric.py:2508(_cumsum_dispatcher)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\multiarray.py:85(empty_like)
+        5    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\scipy\sparse\_csr.py:50(tocsr)
+        2    0.000    0.000    0.000    0.000 D:\Python\Lib\site-packages\numpy\core\multiarray.py:669(result_type)
+        1    0.000    0.000    0.000    0.000 <frozen codecs>:186(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen codecs>:214(setstate)
+
+
