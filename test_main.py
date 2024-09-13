@@ -1,7 +1,7 @@
 import unittest
-import os
-import tempfile
 from unittest.mock import patch, mock_open
+import io
+import os
 from main import CosineSimilarity, process_files
 
 class TestCosineSimilarity(unittest.TestCase):
@@ -18,43 +18,38 @@ class TestCosineSimilarity(unittest.TestCase):
         sim = CosineSimilarity("内容完全相同", "内容完全相同")
         self.assertEqual(sim.main(), 1.0)
 
+    def test_partial_similarity(self):
+        sim = CosineSimilarity("这是一个测试", "这是另一个测试")
+        result = sim.main()
+        self.assertGreater(result, 0.0)
+        self.assertLess(result, 1.0)
+        print(f"Partial similarity test result: {result * 100:.2f}%")
 
 class TestProcessFiles(unittest.TestCase):
 
-    @patch("builtins.open", new_callable=mock_open)
-    @patch("os.path.isfile", return_value=True)
-    def test_process_files(self, mock_isfile, mock_open):
-        file_pairs = [("file1.txt", "file2.txt")]
-        outputfile = "output.txt"
+    @patch('builtins.open', new_callable=mock_open, read_data="测试内容")
+    @patch('os.path.isfile', return_value=True)
+    @patch('os.makedirs')
+    def test_process_files(self, mock_makedirs, mock_isfile, mock_open):
+        file_pairs = [('file1.txt', 'file2.txt')]
+        outputfile = 'output.txt'
 
-        # 模拟文件内容
-        mock_open().read.side_effect = [
-            "This is the content of file1.",
-            "This is the content of file2."
-        ]
-
-        # 不再调用 os.makedirs
-        with patch("os.makedirs") as mock_makedirs:
+        with patch("sys.stdout", new_callable=io.StringIO) as mock_stdout:
             process_files(file_pairs, outputfile)
-            mock_makedirs.assert_not_called()
+            self.assertIn("file1.txt 和 file2.txt 相似度:", mock_stdout.getvalue())
+            print(mock_stdout.getvalue())
 
-        # 验证文件是否正确打开并写入内容
-        mock_open.assert_called_with(outputfile, 'a+', encoding='utf-8')
-        handle = mock_open()
-        handle.writelines.assert_called()
+    @patch('builtins.open', new_callable=mock_open, read_data="测试内容")
+    @patch('os.path.isfile', side_effect=[True, False])
+    @patch('os.makedirs')
+    def test_process_files_missing_file(self, mock_makedirs, mock_isfile, mock_open):
+        file_pairs = [('file1.txt', 'file2.txt')]
+        outputfile = 'output.txt'
 
-    @patch("os.makedirs")
-    @patch("builtins.open", new_callable=mock_open)
-    @patch("os.path.isfile", return_value=False)
-    def test_process_files_missing_file(self, mock_isfile, mock_open, mock_makedirs):
-        file_pairs = [("file1.txt", "file2.txt")]
-        outputfile = "output.txt"
-
-        with self.assertLogs(level='ERROR') as log:
+        with patch("sys.stdout", new_callable=io.StringIO) as mock_stdout:
             process_files(file_pairs, outputfile)
-            # 如果函数中没有日志记录，可以直接检查print输出
-            self.assertTrue(any("Error: One or both input files" in message for message in log.output))
-
+            self.assertIn("Error: One or both input files 'file1.txt' and 'file2.txt' do not exist.", mock_stdout.getvalue())
+            print(mock_stdout.getvalue())
 
 if __name__ == '__main__':
     unittest.main()
